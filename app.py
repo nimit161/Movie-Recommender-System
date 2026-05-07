@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 
-API_KEY = st.secrets["11ee7024a0e356bc052a96ea745326ff"]
+API_KEY = st.secrets["API_KEY"]
 
 def fetch_poster(movie_id):
     try:
